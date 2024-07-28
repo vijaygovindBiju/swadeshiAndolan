@@ -1,0 +1,31 @@
+.inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 300px;
+  padding: 0px;
+  margin: 0%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.picBor{
+  max-width: 300px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  object-fit: fill;
+}
+.name{
+  max-width: 300px;
+  display: flex;
+}
+.picBorder{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  max-width: 300px;
+  flex-direction: column;
+  object-fit: cover;
+}

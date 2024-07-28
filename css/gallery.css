@@ -1,0 +1,95 @@
+.hideonphone{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.showOnphone{
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container  {
+  position: relative;
+  width: 37%;
+  margin: 30px;
+  transition: all ease 1s;
+}
+.container:hover {
+  width: 40%;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120%;
+  width: 120%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 58%;
+  left: 43%;
+  transform: translate(-65%, -65%);
+
+}
+.containershowOnphone  {
+  position: relative;
+  width: 90%;
+  margin: 30px;
+  transition: all ease 1s;
+}
+.containershowOnphone:hover {
+  width: 100%;
+
+}
+
+.imageshowOnphone {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayshowOnphone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120%;
+  width: 120%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containershowOnphone:hover .overlayshowOnphone {
+  opacity: 1;
+}
+
+.textshowOnphone {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 58%;
+  left: 43%;
+  transform: translate(-65%, -65%);
+}

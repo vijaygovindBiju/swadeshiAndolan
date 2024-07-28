@@ -1,0 +1,12 @@
+.imageBorder{
+  display: flex;
+  flex-direction:row ;
+  max-width 100%;;
+  justify-content: space-between;
+  min-width: 100px;
+  margin:20px 0px 40px 0px ;
+  padding: 0%;
+  flex-grow: inherit;
+  flex-wrap: nowrap;
+  flex: 1;
+}

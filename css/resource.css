@@ -1,0 +1,69 @@
+.downloadButton {
+  padding: 10px;
+  margin: 30px;
+  border: 2px solid brown;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  object-position: center;
+  color: brown;
+  transition: 1s all;
+}
+.downloadButton:hover{
+  box-shadow: 5px 5px 5px black;
+  background-color: brown;
+  color: white;
+}
+h2{
+  text-decoration: underline blue;
+  margin: 20px;
+}
+.down{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.book1{
+  margin: 20px;
+  padding: 10px;
+  display: block;
+}
+.book1 p{
+  padding: 20px;
+  font-weight: 10px;
+  font-size: large;
+}
+.book2{
+  margin: 20px;
+  padding: 10px;
+  display: block;
+}
+.book2 p{
+  padding: 20px;
+  font-weight: 10px;
+  font-size: large;
+}
+.book3{
+  display: block;
+  margin: 20px;
+  padding: 10px;
+}
+.book3 p{
+  padding: 20px;
+  font-weight: 10px;
+  font-size: large;
+}
+.book4{
+  display: block;
+  margin: 20px;
+  padding: 10px;
+}
+.book4 p{
+  padding: 20px;
+  font-weight: 10px;
+  font-size: large;
+}
+.bookce{
+  display: flex;
+  flex-direction: column;
+}
